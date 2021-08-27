@@ -1,0 +1,66 @@
+.contact { 
+  margin: 4rem auto;
+  border-radius: 6px;
+  background-color: gray;
+  width: 50%;
+  max-width: 50rem;
+  padding: 2.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.25rem;
+}
+
+.contact h1 {
+  font-size: 3rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.form label { 
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  margin: 1rem 0 1.25rem 0;
+}
+
+.form input, 
+.form textarea { 
+  font: inherit;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: rgb(265, 55%, 96%);
+  resize: none;
+}
+
+.controls { 
+  display: flex;
+  column-gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.control { 
+  flex: 1;
+  min-width: 8rem;
+}
+
+.actions { 
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.form button { 
+  font: inherit;
+  cursor: pointer;
+  background-color: #080e14;
+  border: 1 solid #080e14;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #e9eff3;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.form button:hover { 
+  background-color: royalblue;
+  border-color: royalblue;
+}

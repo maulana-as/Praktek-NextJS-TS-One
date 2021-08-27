@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  max-width: 2400px;
+  margin: auto;
+  height: 100%;
 }
 
 a {
@@ -14,3 +17,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#__next{ 
+  height: 100%;
+}
+
+
+/* pada saat menggunakan global aplication maka styling ini akan terkena 
+   disemua component
+*/
